@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.files = [
     "LICENSE",
      "README.textile",
-     "init.rb",
+     "lib/hassless.rb",
      "lib/hassless/compiler.rb",
      "lib/hassless/middleware.rb",
      "rails/init.rb"

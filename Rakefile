@@ -10,7 +10,7 @@ begin
     gem.email = "gems@objectreload.com"
     gem.homepage = "http://github.com/objectreload/hassless"
     gem.authors = ["Mateusz Drożdżyński"]
-    gem.files = FileList["LICENSE", "README.textile", "lib/hassless/compiler.rb", "lib/hassless/middleware.rb", "init.rb", "rails/init.rb"]
+    gem.files = FileList["LICENSE", "README.textile", "lib/hassless.rb", "lib/hassless/compiler.rb", "lib/hassless/middleware.rb", "rails/init.rb"]
     gem.add_dependency('rack')
     gem.add_dependency('less')
   end
