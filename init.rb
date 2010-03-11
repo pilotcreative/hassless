@@ -1,3 +1,1 @@
-if RAILS_ENV == 'production'
-	ActionController::Dispatcher.middleware.use Hassle
-end
+require File.join(File.dirname(__FILE__), 'rails', 'init')
