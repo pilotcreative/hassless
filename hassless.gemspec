@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mateusz Drożdżyński"]
-  s.date = %q{2010-03-11}
+  s.date = %q{2010-03-12}
   s.description = %q{Makes LESS less of a hassle on read-only filesystems by compiling and serving it up for you.}
   s.email = %q{gems@objectreload.com}
   s.extra_rdoc_files = [
